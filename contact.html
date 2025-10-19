@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuvéa - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="page-contact">
+
+    <nav class="navbar navbar-expand-lg navbar-solid">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">NUVÉA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav mt-1">
+                    <li class="nav-item px-3"><a class="nav-link" href="index.html">ACCUEIL</a></li>
+                    <li class="nav-item px-3"><a class="nav-link active" href="apropos.html">À PROPOS</a></li>
+                    <li class="nav-item px-3"><a class="nav-link" href="#">SERVICES</a></li>
+                    <li class="nav-item px-3"><a class="nav-link active" href="contact.html">NOUS JOINDRE</a></li>
+                </ul>
+                <a href="contact.html" class="navbar-cta__btn mt-2 mb-2">PRENDRE RENDEZ-VOUS</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-6">
+
+        <section id="contact-info" class="py-5">
+            <div class="container px-3 px-sm-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center mb-4 px-2">
+                        <h2 class="reveal">Nous joindre</h2>
+                        <p class="mx-auto w-100 w-sm-75 reveal">
+                            Retrouvez nos coordonnées et nos horaires.<br>Nous sommes là pour vous accueillir et répondre à vos besoins esthétiques.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center gx-4 gy-4 align-items-start">
+                    <div class="col-12 col-md-6 px-2 px-sm-4 reveal">
+                        <div class="contact__info h-100">
+                            <h5 class="mb-3">Coordonnées</h5>
+                            <p class="d-flex align-items-center mb-1">
+                                <i class="ri-map-pin-fill contact-icon me-2" aria-hidden="true"></i>
+                                <a href="https://www.google.com/maps/place/123+Rue+Imaginaire,+Montréal,+QC" target="_blank">
+                                    123 Rue Imaginaire, Montréal, QC
+                                </a>
+                            </p>
+                            <p class="d-flex align-items-center mb-1">
+                                <i class="ri-phone-fill contact-icon me-2" aria-hidden="true"></i>
+                                <a href="tel:0000000000">(000) 000-0000</a>
+                            </p>
+                            <p class="d-flex align-items-center mb-1">
+                                <i class="ri-mail-fill contact-icon me-2" aria-hidden="true"></i>
+                                <a href="mailto:info@nueva.ca">info@nueva.ca</a>
+                            </p>
+
+                            <h5 class="mt-4 mb-3">Heures d'ouverture</h5>
+                            <p>Lundi - Vendredi : 9h00 - 20h00</p>
+                            <p>Samedi : 10h00 - 16h00</p>
+                            <p>Dimanche : Fermé</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 px-2 px-sm-3 reveal">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357575.59508888144!2d-74.0415269731443!3d45.55918948315749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C%20QC!5e0!3m2!1sen!2sca!4v1760734485634!5m2!1sen!2sca" 
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                            title="Carte Google Maps montrant l'emplacement de Nuvéa à Montréal">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <section id="rdv" class="py-5">
+            <div class="container px-4 px-sm-5">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-12 col-lg-8 text-center">
+                        <h2 class="section-title mb-3 reveal">Prenez rendez-vous en ligne</h2>
+                        <p class="section-intro mx-auto reveal" style="max-width:600px;">
+                            Offrez-vous un moment de détente et de soin. Remplissez le formulaire ci-dessous pour réserver votre rendez-vous avec notre équipe de professionnels passionnés.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-8">
+                        <form class="rdv__form row g-3 p-4 reveal">
+                            <div class="col-12 col-md-6">
+                                <label for="nom" class="form-label">Nom</label>
+                                <input type="text" class="form-control" id="nom" placeholder="Votre nom" aria-label="Nom">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="prenom" class="form-label">Prénom</label>
+                                <input type="text" class="form-control" id="prenom" placeholder="Votre prénom" aria-label="Prénom">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="email" class="form-label">Courriel</label>
+                                <input type="email" class="form-control" id="email" placeholder="Votre email" aria-label="Courriel">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="telephone" class="form-label">Téléphone</label>
+                                <input type="tel" class="form-control" id="telephone" placeholder="Votre numéro" aria-label="Téléphone">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="service" class="form-label">Service souhaité</label>
+                                <select class="form-select" id="service" aria-label="Service souhaité">
+                                    <option selected>Choisir un service</option>
+                                    <option>Soins du visage</option>
+                                    <option>Microblading / maquillage permanent</option>
+                                    <option>Soins des cils</option>
+                                    <option>Manucure / Pédicure</option>
+                                </select>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <label for="date" class="form-label">Date souhaitée</label>
+                                <input type="date" class="form-control" id="date" aria-label="Date souhaitée">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <label for="heure" class="form-label">Heure souhaitée</label>
+                                <input type="time" class="form-control" id="heure" aria-label="Heure souhaitée">
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="cta__btn px-3" type="submit" aria-label="Envoyer la demande de rendez-vous">S’abonner</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top py-5 py-sm-6">
+            <div class="container px-3 px-sm-4">
+                <div class="row mx-auto">
+                    <div class="col-lg-4 mb-4 mb-sm-5">
+                        <a href="index.html" class="footer__brand d-block mb-3 reveal">NUVÉA</a>
+                        <p class="footer__description reveal">
+                            Nuvéa propose des soins esthétiques modernes et personnalisés pour sublimer votre peau et votre bien-être.
+                        </p>
+                        <div class="footer__social d-flex gap-2 mt-3 reveal">
+                            <a href="#" class="footer__social-link" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+                            <a href="#" class="footer__social-link" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+                            <a href="#" class="footer__social-link" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 offset-lg-2 mb-4 mb-sm-5">
+                        <h6 class="footer__title mb-3 reveal">À propos</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 reveal d-block"><a href="#">Notre mission</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">Équipe</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">Carrières</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">Blogue</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 mb-4 mb-sm-5">
+                        <h6 class="footer__title mb-3 reveal">Services</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 reveal d-block"><a href="#">Soins du visage</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">Cils et sourcils</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">Manucure / Pédicure</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">Forfaits Nuvéa</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 mb-4 mb-sm-5">
+                        <h6 class="footer__title mb-3 reveal">Contact</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 reveal d-block"><a href="#">Nous joindre</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">FAQ</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">Comment nous trouver</a></li>
+                            <li class="mb-2 reveal d-block"><a href="#">Infolettre</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom py-4 d-flex justify-content-center">
+            <p class="mb-0 reveal">© 2025 Nuvéa. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
+
+
+
